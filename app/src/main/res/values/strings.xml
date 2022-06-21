@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- App title. -->
+    <string name="app_name">FMAConnect</string>
+
+    <!-- Profile login and register. -->
+    <string name="hint_name">NAME</string>
+    <string name="hint_email">EMAIL</string>
+    <string name="hint_password">PASSWORD</string>
+    <string name="hint_confirm_password">CONFIRM PASSWORD</string>
+    <string name="text_login">LOGIN</string>
+    <string name="text_register">REGISTER</string>
+    <string name="error_message_name">Enter full name</string>
+    <string name="error_message_email">Enter valid email</string>
+    <string name="error_message_phone">Enter phone</string>
+    <string name="error_message_password">Enter password</string>
+    <string name="error_emil_exist">Email already exist</string>
+    <string name="error_password_match">Password does not matches</string>
+    <string name="error_valid_email_password">Wrong email or password</string>
+    <string name="success_message">Registration successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="text_title">Tutorial</string>
+    <string name="text_hello">Tutorial1</string>
+    <string name="text_accounts">Tutorial2</string>
+
+
+    <string name="login_entry">Login</string>
+    <string name="password_entry">Password</string>
+    <string name="login_butt">LOGIN</string>
+    <string name="account_create">Create new account</string>
+    <string name="remember_user">Remember</string>
+    <string name="forgot_password">Forgot password?</string>
+
+    <!-- Navigation drawer. -->
+    <string name="home_tab">Profile</string>
+    <string name="productinfo_tab">Product Info</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+    <string name="nav_support">Support</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Product info. -->
+    <string-array name="Product_Info_List">
+        <item>Off-line Filters</item>
+        <item>Oil Service Units</item>
+        <item>Dewatering Systems</item>
+    </string-array>
+
+    <!-- Off line filters. -->
+    <string-array name="Off_line_Filters">
+        <item>FN1 040</item>
+        <item>FN 060</item>
+        <item>FN 300</item>
+        <item>FNS 040</item>
+        <item>FNS 060</item>
+        <item>FNA 014</item>
+        <item>FNA1 008</item>
+        <item>FNA1 016</item>
+        <item>FN1HV 008</item>
+        <item>FN1HV 016</item>
+        <item>FNA 040-553</item>
+        <item>FNA 045</item>
+        <item>FNAPC1 045</item>
+        <item>FNAPC1 016</item>
+        <item>FNU 008</item>
+    </string-array>
+
+    <!-- Oil service units. -->
+    <string-array name="Oil_Service_Units">
+        <item>CFP 03</item>
+        <item>FA1 / FA1HV 008</item>
+        <item>FA 016 / FAPC 016</item>
+        <item>UM 045 / UMPC 045</item>
+        <item>UMPCL 045 Lightline</item>
+        <item>FA 003-2341</item>
+        <item>FA 016-1160</item>
+        <item>Set FA 016.1775</item>
+        <item>Set FNA 008.1700</item>
+    </string-array>
+
+    <!-- Dewatering systems. -->
+    <string-array name="Dewatering_Systems">
+        <item>OPS 010 / OPS550</item>
+        <item>EXAPOR AQUA</item>
+    </string-array>
+
+    <!-- Add device. -->
+    <string name="save_button">Save</string>
+
+</resources>

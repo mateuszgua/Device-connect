@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hfad.fmaconnect.device.AddDeviceActivity" >
+
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompactButtonAddManual"
+        android:layout_width="320dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_btn"
+        android:text="Manual"
+        android:textColor="@color/white" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompactButtonAddBluetooth"
+        android:layout_width="320dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_btn"
+        android:text="Bluetooth"
+        android:textColor="@color/white" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompactButtonAddQRCode"
+        android:layout_width="320dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_btn"
+        android:text="QR Code"
+        android:textColor="@color/white" />
+
+</LinearLayout>
